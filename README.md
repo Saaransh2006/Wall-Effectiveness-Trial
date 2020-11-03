@@ -1,2 +1,2 @@
-# p5.play-boilerplate
-Boiler plate for p5.play
+# Wall Effectiveness Trial
+A simulator to test reliability of wall against bullets.
