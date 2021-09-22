@@ -4,6 +4,13 @@ var thickness,speed,weight
 var damage,stage;
 var sound1,sound2;
 
+//Preload function.
+function preload() {
+   //Loading sounds to sound1 and sound2 variables.
+   sound1 = loadSound("Gun_load.mp3");
+   sound2 = loadSound("Gun_shot.wav");
+}
+
 //Setup function.
 function setup() {
   //Creating the canvas area.
@@ -27,10 +34,6 @@ function setup() {
   bullet.shapeColor = "white";
   //Making it invisible.
   bullet.visible = false;
-
-  //Loading sounds to sound1 and sound2 variables.
-  sound1 = loadSound("Gun_load.mp3");
-  sound2 = loadSound("Gun_shot.wav");
 
   //Setting stage's value as 1.
   stage = 1;
